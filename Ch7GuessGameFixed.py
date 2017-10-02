@@ -31,10 +31,10 @@ Try to guess it!: """))
         print ("Game over man, game over!")
         retry = input("""Do you want to try again?
 Y/N""")
-    if retry == ("Y") or retry == ("y"):
+        if retry == ("Y") or retry == ("y"):
              print ("Restarting...")
              predictiongame()
-    if retry == ("N") or retry == ("n"):
+        if retry == ("N") or retry == ("n"):
             print ("Goodbye!")
             quit()
     if predict == number:
