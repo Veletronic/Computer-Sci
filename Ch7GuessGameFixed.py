@@ -40,7 +40,7 @@ Y/N""")
     if predict == number:
          win()
 
-def hints():        #Python is ignoring this w/out showing an error?
+def hints():       
     while True:
         global number
         if number > 50:
