@@ -53,7 +53,7 @@ def hints():        #Python is ignoring this w/out showing an error?
             print ("The number is less than 50")
             if number < 25:
                 print ("But it is less than 25")
-            if number < 25:
+            if number > 25:
                 print ("But it is greater than 25")
             predictiongame()
 
