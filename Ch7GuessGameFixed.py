@@ -28,6 +28,7 @@ Try to guess it!: """))
         print (Lives, """Lives left
 ----------------------------------------------------------""")
     if Lives == 0:
+        msg = ""
         print ("Game over man, game over!")
         retry = input("""Do you want to try again?
 Y/N""")
@@ -40,7 +41,7 @@ Y/N""")
     if predict == number:
          win()
 
-def hints():       
+def hints():        
     while True:
         global number
         if number > 50:
@@ -56,7 +57,6 @@ def hints():
             if number > 25:
                 print ("But it is greater than 25")
             predictiongame()
-
+    
 hints() 
-
 
