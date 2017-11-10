@@ -23,6 +23,7 @@ s = START DRAWING
 c = CHANGE COLOR
 r = CHANGE RESOLUTION
 p = CHANGE PEN WIDTH
+b = CHANGE BG COLOR
 Make sure capslock is off!""")
 
 print (instructions)
