@@ -73,7 +73,7 @@ def maingame():
     
     while Lives !=0:
         Num = random.randrange(0,rng)
-        print(Num) #debug
+        #print(Num) Used for debugging, or you can use it to cheat ;)
         Guess = int(input("""
         Enter your guess here: """))
         if Guess == Num:
